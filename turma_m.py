@@ -122,8 +122,8 @@ class Grafo(ABC):
             if self._checa_mapeamento_preserva_adjacencia(self, grafo, mapping):
                 return True
                     
-            # Se testou todas as permutações e nenhuma funcionou, eles não são isomorfos.
-            return False
+        # Se testou todas as permutações e nenhuma funcionou, eles não são isomorfos.
+        return False
 
 
 
